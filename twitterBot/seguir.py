@@ -1,9 +1,9 @@
 import tweepy
 
-consumer_key = 'MbDaxA5ch7L9EoXEM5OT1exg8'
-consumer_secret = 'cbnEJa9h9SNo788qmIxZbh3TUcECBOa5F4sovehS6DzBy3derd'
-access_token = '1652374140932837386-QIIsGbqGB3UcvisuYkZSnadZnEVWst'
-access_token_secret = 't8opFixJ5JK5LTxoNNrrfl7Uszji2Qg2kSLJwLBzQcXhb'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 class MyStreamListener(tweepy.StreamListener):
     def on_status(self, status):
